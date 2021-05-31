@@ -6,3 +6,4 @@ class Hospital(models.Model):
     established_date=models.IntegerField()
     city=models.CharField(max_length=20)
     address=models.CharField(max_length=200)
+    hospital_url=models.CharField(max_length=200,default=None,blank=True,null=True)

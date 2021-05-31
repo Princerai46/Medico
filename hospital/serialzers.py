@@ -5,3 +5,4 @@ class HospitalSerializer(serializers.Serializer):
     established_date=serializers.IntegerField()
     city=serializers.CharField(max_length=20)
     address=serializers.CharField(max_length=100)
+    hospital_url=serializers.CharField()
